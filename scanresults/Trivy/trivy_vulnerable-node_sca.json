@@ -1,0 +1,35 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:3a6f4cd0-174f-4a2f-8fff-fca25331980e",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-03-27T14:04:56+00:00",
+    "tools": [
+      {
+        "vendor": "aquasecurity",
+        "name": "trivy",
+        "version": "0.38.3"
+      }
+    ],
+    "component": {
+      "bom-ref": "16acdc56-fce3-4fd9-abbb-be61120035ad",
+      "type": "application",
+      "name": "C:/Users/fbraun/Documents/GitHub/vulnerable-node",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [],
+  "dependencies": [
+    {
+      "ref": "16acdc56-fce3-4fd9-abbb-be61120035ad",
+      "dependsOn": []
+    }
+  ],
+  "vulnerabilities": []
+}
