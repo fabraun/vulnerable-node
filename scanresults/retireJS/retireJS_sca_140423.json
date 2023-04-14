@@ -1,0 +1,91 @@
+DEPRECATION NOTICE: The node scanning is deprecated and will be removed soon. See https://github.com/RetireJS/retire.js/wiki/Deprecating-the-node.js-scanner 
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:067659bd-4042-4120-8a1c-cefb57acb217",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-04-14T08:37:05.956Z",
+    "tools": [
+      {
+        "vendor": "RetireJS",
+        "name": "retire.js",
+        "version": "3.2.3"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "jquery",
+      "version": "3.2.1",
+      "purl": "pkg:npm/jquery@3.2.1",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "c9f5aeeca3ad37bf2aa006139b935f0a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1055018c28ab41087ef9ccefe411606893dabea2"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "87083882cc6015984eb0411a99d3981817f5dc5c90ba24f0940420c5548d82de"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "dcff2b5c2b8625d3593a7531ff4ddcd633939cc9f7acfeb79c18a9e6038fdaa99487960075502f159d44f902d965b0b5aed32b41bfa66a1dc07d85b5d5152b58"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "bootstrap",
+      "version": "3.3.6",
+      "purl": "pkg:npm/bootstrap@3.3.6",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "ed69cf59ee487638489ff8742a469e43"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8cf4186ce86777b4b408ce308ca9f66dd421f509"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "defc39740ac1859d8e2785ed473208409627e87addd5f78f2deaacb93a12d51d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "cf1c9af1a6ae1477c31bcfd2bc5e19a2382f71d2a8ed879d99aa62e5a1e1fc8cdbc52d762e99411ab58b9f51ae266108241b826cba0082b84b5854dccd49ea63"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "jquery",
+      "version": "1.11.1",
+      "purl": "pkg:npm/jquery@1.11.1",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "3c9137d88a00b1ae0b41ff6a70571615"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1797d73e9da4287351f6fbec1b183c19be217c2a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "24262baafef17092927c3dafe764aaa52a2a371b83ed2249cca7e414df99fac1"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "31730738e73937ee0086849cb3d6506ea383ca2eac312b8d08e25c60563df5702fc2b92b3778c4b2b66e7fddd6965d74b5a4df5132df3f02faed01dcf3c7bcae"
+        }
+      ]
+    }
+  ]
+}
