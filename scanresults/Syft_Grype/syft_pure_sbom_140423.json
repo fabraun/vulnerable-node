@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:d76bf441-fd30-4792-b9bd-2a3bc773bf99",
+  "serialNumber": "urn:uuid:99c32513-0d9d-4bf6-9dd1-53e2b97837ea",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-04-14T12:50:51+02:00",
+    "timestamp": "2023-04-17T09:03:45+02:00",
     "tools": [
       {
         "vendor": "anchore",
@@ -20,7 +20,7 @@
   },
   "components": [
     {
-      "bom-ref": "pkg:npm/accepts@1.2.13?package-id=f3c6c6f5c400f1ac",
+      "bom-ref": "pkg:npm/accepts@1.2.13?package-id=bcf72dc1307ab326",
       "type": "library",
       "name": "accepts",
       "version": "1.2.13",
@@ -36,11 +36,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -48,12 +52,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/array-flatten@1.1.1?package-id=d7471e14bb9e836b",
+      "bom-ref": "pkg:npm/array-flatten@1.1.1?package-id=7d3ce2c969641552",
       "type": "library",
       "name": "array-flatten",
       "version": "1.1.1",
@@ -69,11 +73,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -101,12 +109,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/basic-auth@1.0.4?package-id=95c4bb0dee4205f5",
+      "bom-ref": "pkg:npm/basic-auth@1.0.4?package-id=fcb8d99122925cab",
       "type": "library",
       "name": "basic-auth",
       "version": "1.0.4",
@@ -122,11 +130,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -154,12 +166,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/body-parser@1.13.3?package-id=a63cc9e51376a843",
+      "bom-ref": "pkg:npm/body-parser@1.13.3?package-id=c8fd5697961b7d",
       "type": "library",
       "name": "body-parser",
       "version": "1.13.3",
@@ -175,11 +187,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -207,12 +223,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/buffer-writer@1.0.1?package-id=787c6a7387a0179a",
+      "bom-ref": "pkg:npm/buffer-writer@1.0.1?package-id=b59d67ceea85eee2",
       "type": "library",
       "name": "buffer-writer",
       "version": "1.0.1",
@@ -228,11 +244,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -260,12 +280,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/bytes@2.1.0?package-id=e47b385bd9766ea9",
+      "bom-ref": "pkg:npm/bytes@2.1.0?package-id=f44c683b5c20f95e",
       "type": "library",
       "name": "bytes",
       "version": "2.1.0",
@@ -281,11 +301,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -293,12 +317,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/bytes@2.4.0?package-id=72d4a88b233c457d",
+      "bom-ref": "pkg:npm/bytes@2.4.0?package-id=aeddeee97591eef3",
       "type": "library",
       "name": "bytes",
       "version": "2.4.0",
@@ -314,11 +338,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -326,12 +354,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/content-disposition@0.5.1?package-id=2ad2d61dce3bd9b3",
+      "bom-ref": "pkg:npm/content-disposition@0.5.1?package-id=763ca5807cd3b47a",
       "type": "library",
       "name": "content-disposition",
       "version": "0.5.1",
@@ -347,11 +375,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -379,12 +411,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/content-type@1.0.5?package-id=bcccbdce24fadf3e",
+      "bom-ref": "pkg:npm/content-type@1.0.5?package-id=6e36f03080e40d65",
       "type": "library",
       "name": "content-type",
       "version": "1.0.5",
@@ -400,11 +432,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -432,12 +468,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/cookie@0.1.3?package-id=8f09a0402075c3ed",
+      "bom-ref": "pkg:npm/cookie@0.1.3?package-id=27b2d54eb468d3b2",
       "type": "library",
       "name": "cookie",
       "version": "0.1.3",
@@ -453,11 +489,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -465,12 +505,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/cookie@0.1.5?package-id=8b623fe5081a97d7",
+      "bom-ref": "pkg:npm/cookie@0.1.5?package-id=8b983fb4f1e2f467",
       "type": "library",
       "name": "cookie",
       "version": "0.1.5",
@@ -486,11 +526,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -498,12 +542,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/cookie@0.4.2?package-id=4a9a595ccea7945c",
+      "bom-ref": "pkg:npm/cookie@0.4.2?package-id=8fb98f10137c1f52",
       "type": "library",
       "name": "cookie",
       "version": "0.4.2",
@@ -519,11 +563,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -531,12 +579,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/cookie-parser@1.3.5?package-id=b60055b44e6f89a8",
+      "bom-ref": "pkg:npm/cookie-parser@1.3.5?package-id=4e5ae45e4fe62fa7",
       "type": "library",
       "name": "cookie-parser",
       "version": "1.3.5",
@@ -552,11 +600,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -584,12 +636,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/cookie-signature@1.0.6?package-id=18c6d9d3bacd2892",
+      "bom-ref": "pkg:npm/cookie-signature@1.0.6?package-id=8816523e5f9aea9e",
       "type": "library",
       "name": "cookie-signature",
       "version": "1.0.6",
@@ -605,11 +657,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -637,12 +693,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/core-util-is@1.0.3?package-id=2581100466997172",
+      "bom-ref": "pkg:npm/core-util-is@1.0.3?package-id=8764bcdd607eb0bd",
       "type": "library",
       "name": "core-util-is",
       "version": "1.0.3",
@@ -658,11 +714,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -706,12 +766,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/debug@2.2.0?package-id=44e89a66368665ed",
+      "bom-ref": "pkg:npm/debug@2.2.0?package-id=39b2eb6a7ee027a7",
       "type": "library",
       "name": "debug",
       "version": "2.2.0",
@@ -727,11 +787,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -739,12 +803,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/debug@2.6.9?package-id=14fa8d54e6e3ffda",
+      "bom-ref": "pkg:npm/debug@2.6.9?package-id=33eed526d342c333",
       "type": "library",
       "name": "debug",
       "version": "2.6.9",
@@ -760,11 +824,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -772,12 +840,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/depd@1.0.1?package-id=ebd1450efcefb507",
+      "bom-ref": "pkg:npm/depd@1.0.1?package-id=900f4ac91d589b31",
       "type": "library",
       "name": "depd",
       "version": "1.0.1",
@@ -793,11 +861,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -805,12 +877,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/depd@1.1.2?package-id=d7f429b983504433",
+      "bom-ref": "pkg:npm/depd@1.1.2?package-id=6cc9a473017d6ec0",
       "type": "library",
       "name": "depd",
       "version": "1.1.2",
@@ -826,11 +898,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -838,12 +914,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/depd@2.0.0?package-id=dc598ebfa0a0f79f",
+      "bom-ref": "pkg:npm/depd@2.0.0?package-id=6dbb13190f2f1d86",
       "type": "library",
       "name": "depd",
       "version": "2.0.0",
@@ -859,11 +935,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -871,12 +951,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/destroy@1.0.4?package-id=95401dd8906ba19f",
+      "bom-ref": "pkg:npm/destroy@1.0.4?package-id=d7ece7cde35f2bcc",
       "type": "library",
       "name": "destroy",
       "version": "1.0.4",
@@ -892,11 +972,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -904,12 +988,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/ee-first@1.1.1?package-id=9309396dab1e65ee",
+      "bom-ref": "pkg:npm/ee-first@1.1.1?package-id=abb6e06a30be392f",
       "type": "library",
       "name": "ee-first",
       "version": "1.1.1",
@@ -925,11 +1009,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -957,12 +1045,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/ejs@0.8.8?package-id=d61ab9c5f15f2691",
+      "bom-ref": "pkg:npm/ejs@0.8.8?package-id=c7733a2ec33734c7",
       "type": "library",
       "name": "ejs",
       "version": "0.8.8",
@@ -978,11 +1066,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -990,12 +1082,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/ejs@2.7.4?package-id=e6758ad53b30bea6",
+      "bom-ref": "pkg:npm/ejs@2.7.4?package-id=ff55aec28cae4023",
       "type": "library",
       "name": "ejs",
       "version": "2.7.4",
@@ -1011,11 +1103,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -1023,12 +1119,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/ejs-locals@1.0.2?package-id=a32b93eb167c8651",
+      "bom-ref": "pkg:npm/ejs-locals@1.0.2?package-id=1d5bfbc72e7d394f",
       "type": "library",
       "name": "ejs-locals",
       "version": "1.0.2",
@@ -1037,11 +1133,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -1069,12 +1169,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/escape-html@1.0.3?package-id=8d105350adf3a8fb",
+      "bom-ref": "pkg:npm/escape-html@1.0.3?package-id=9f65e9c0da2faf23",
       "type": "library",
       "name": "escape-html",
       "version": "1.0.3",
@@ -1090,11 +1190,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -1122,12 +1226,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/etag@1.7.0?package-id=920bfe588fa78b1f",
+      "bom-ref": "pkg:npm/etag@1.7.0?package-id=ee40211cb775fd6",
       "type": "library",
       "name": "etag",
       "version": "1.7.0",
@@ -1143,11 +1247,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -1155,12 +1263,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/express@4.13.4?package-id=f92afa03ba43ed2d",
+      "bom-ref": "pkg:npm/express@4.13.4?package-id=44f0c871c487a73b",
       "type": "library",
       "name": "express",
       "version": "4.13.4",
@@ -1176,11 +1284,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -1188,12 +1300,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/express-session@1.17.3?package-id=dc1fd9578c4300ad",
+      "bom-ref": "pkg:npm/express-session@1.17.3?package-id=6e659b5188a2b2e3",
       "type": "library",
       "name": "express-session",
       "version": "1.17.3",
@@ -1209,11 +1321,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -1241,12 +1357,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/finalhandler@0.4.1?package-id=6944d9594ae1750b",
+      "bom-ref": "pkg:npm/finalhandler@0.4.1?package-id=fe803ea38d05778d",
       "type": "library",
       "name": "finalhandler",
       "version": "0.4.1",
@@ -1262,11 +1378,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -1274,12 +1394,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/forwarded@0.1.2?package-id=9e98442172466816",
+      "bom-ref": "pkg:npm/forwarded@0.1.2?package-id=2baf4ebbdcc71c5a",
       "type": "library",
       "name": "forwarded",
       "version": "0.1.2",
@@ -1295,11 +1415,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -1307,12 +1431,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/fresh@0.3.0?package-id=4f2b9fcce4034270",
+      "bom-ref": "pkg:npm/fresh@0.3.0?package-id=b82fb0a416f5071f",
       "type": "library",
       "name": "fresh",
       "version": "0.3.0",
@@ -1328,11 +1452,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -1340,12 +1468,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/generic-pool@2.4.2?package-id=526d6e0d544a2958",
+      "bom-ref": "pkg:npm/generic-pool@2.4.2?package-id=18eab241a29f725b",
       "type": "library",
       "name": "generic-pool",
       "version": "2.4.2",
@@ -1361,11 +1489,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -1393,12 +1525,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/http-errors@1.3.1?package-id=3a7fab70bb9f530c",
+      "bom-ref": "pkg:npm/http-errors@1.3.1?package-id=fe221c0bbf2ba0e8",
       "type": "library",
       "name": "http-errors",
       "version": "1.3.1",
@@ -1414,11 +1546,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -1446,12 +1582,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/iconv-lite@0.4.11?package-id=c59e77ba1133ade5",
+      "bom-ref": "pkg:npm/iconv-lite@0.4.11?package-id=a2f382cb7bda2663",
       "type": "library",
       "name": "iconv-lite",
       "version": "0.4.11",
@@ -1467,11 +1603,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -1499,12 +1639,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/iconv-lite@0.4.13?package-id=802c9c7d6278bf98",
+      "bom-ref": "pkg:npm/iconv-lite@0.4.13?package-id=3406fc48cacaa534",
       "type": "library",
       "name": "iconv-lite",
       "version": "0.4.13",
@@ -1520,11 +1660,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -1552,12 +1696,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/inherits@2.0.4?package-id=17c66ed1ac24b333",
+      "bom-ref": "pkg:npm/inherits@2.0.4?package-id=e8aa2200e9737250",
       "type": "library",
       "name": "inherits",
       "version": "2.0.4",
@@ -1573,11 +1717,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -1585,12 +1733,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/ipaddr.js@1.0.5?package-id=798bbcbb9e1f575",
+      "bom-ref": "pkg:npm/ipaddr.js@1.0.5?package-id=1a8f75a44b2c192a",
       "type": "library",
       "name": "ipaddr.js",
       "version": "1.0.5",
@@ -1606,11 +1754,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -1618,12 +1770,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/isarray@0.0.1?package-id=52877014b8867a20",
+      "bom-ref": "pkg:npm/isarray@0.0.1?package-id=6027a3075bd0a877",
       "type": "library",
       "name": "isarray",
       "version": "0.0.1",
@@ -1639,11 +1791,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -1651,12 +1807,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/log4js@0.6.38?package-id=7b23524c69ca3cc9",
+      "bom-ref": "pkg:npm/log4js@0.6.38?package-id=aa5e139a63b39624",
       "type": "library",
       "name": "log4js",
       "version": "0.6.38",
@@ -1672,11 +1828,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -1684,12 +1844,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/manakin@0.3.0?package-id=88fcd308a0fb01bc",
+      "bom-ref": "pkg:npm/manakin@0.3.0?package-id=23cb77df9401acb6",
       "type": "library",
       "name": "manakin",
       "version": "0.3.0",
@@ -1705,11 +1865,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -1717,12 +1881,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/media-typer@0.3.0?package-id=a103c00c3edae5c7",
+      "bom-ref": "pkg:npm/media-typer@0.3.0?package-id=1ccb3ce368f16089",
       "type": "library",
       "name": "media-typer",
       "version": "0.3.0",
@@ -1738,11 +1902,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -1770,12 +1938,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/merge-descriptors@1.0.1?package-id=459152b2061cebbe",
+      "bom-ref": "pkg:npm/merge-descriptors@1.0.1?package-id=a46b34f39493ff5b",
       "type": "library",
       "name": "merge-descriptors",
       "version": "1.0.1",
@@ -1791,11 +1959,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -1823,12 +1995,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/methods@1.1.2?package-id=c45465da6cf3e07c",
+      "bom-ref": "pkg:npm/methods@1.1.2?package-id=c7bcf4a5b4111e8b",
       "type": "library",
       "name": "methods",
       "version": "1.1.2",
@@ -1844,11 +2016,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -1856,12 +2032,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/mime@1.3.4?package-id=cf26abbf5aff1b67",
+      "bom-ref": "pkg:npm/mime@1.3.4?package-id=407464c35603d60",
       "type": "library",
       "name": "mime",
       "version": "1.3.4",
@@ -1877,11 +2053,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -1889,12 +2069,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/mime-db@1.52.0?package-id=e27bf4b9820ff3b0",
+      "bom-ref": "pkg:npm/mime-db@1.52.0?package-id=b0deeb25d6e49f07",
       "type": "library",
       "name": "mime-db",
       "version": "1.52.0",
@@ -1910,11 +2090,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -1942,12 +2126,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/mime-types@2.1.35?package-id=71de09438e3571f6",
+      "bom-ref": "pkg:npm/mime-types@2.1.35?package-id=be7c93d9d2b1389",
       "type": "library",
       "name": "mime-types",
       "version": "2.1.35",
@@ -1963,11 +2147,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -1995,12 +2183,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/morgan@1.6.1?package-id=cd5be741de988bb4",
+      "bom-ref": "pkg:npm/morgan@1.6.1?package-id=3d525887981dcee6",
       "type": "library",
       "name": "morgan",
       "version": "1.6.1",
@@ -2016,11 +2204,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -2028,32 +2220,29 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/ms@0.7.1?package-id=691bb48b90916d04",
+      "bom-ref": "pkg:npm/ms@0.7.1?package-id=df3612bd6bf07848",
       "type": "library",
       "name": "ms",
       "version": "0.7.1",
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
       "cpe": "cpe:2.3:a:ms:ms:0.7.1:*:*:*:*:*:*:*",
       "purl": "pkg:npm/ms@0.7.1",
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -2061,32 +2250,29 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/ms@0.7.2?package-id=7902199c219caec7",
+      "bom-ref": "pkg:npm/ms@0.7.2?package-id=c50dbf8a73fea051",
       "type": "library",
       "name": "ms",
       "version": "0.7.2",
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
       "cpe": "cpe:2.3:a:ms:ms:0.7.2:*:*:*:*:*:*:*",
       "purl": "pkg:npm/ms@0.7.2",
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -2094,32 +2280,29 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/ms@2.0.0?package-id=7d6b37e3f761ffbe",
+      "bom-ref": "pkg:npm/ms@2.0.0?package-id=f2dafa37e5a77ae0",
       "type": "library",
       "name": "ms",
       "version": "2.0.0",
-      "licenses": [
-        {
-          "license": {
-            "id": "MIT"
-          }
-        }
-      ],
       "cpe": "cpe:2.3:a:ms:ms:2.0.0:*:*:*:*:*:*:*",
       "purl": "pkg:npm/ms@2.0.0",
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -2127,12 +2310,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/negotiator@0.5.3?package-id=e1973f6542c0cc5b",
+      "bom-ref": "pkg:npm/negotiator@0.5.3?package-id=9b4cf402c919e476",
       "type": "library",
       "name": "negotiator",
       "version": "0.5.3",
@@ -2148,11 +2331,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -2160,12 +2347,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/on-finished@2.3.0?package-id=e81a553fdecc4b4b",
+      "bom-ref": "pkg:npm/on-finished@2.3.0?package-id=175df1943d52f92a",
       "type": "library",
       "name": "on-finished",
       "version": "2.3.0",
@@ -2181,11 +2368,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -2213,12 +2404,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/on-headers@1.0.2?package-id=adee55a712f3cd1a",
+      "bom-ref": "pkg:npm/on-headers@1.0.2?package-id=ed63e70859bf35cc",
       "type": "library",
       "name": "on-headers",
       "version": "1.0.2",
@@ -2234,11 +2425,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -2266,12 +2461,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/packet-reader@0.2.0?package-id=f0e259651b4b5098",
+      "bom-ref": "pkg:npm/packet-reader@0.2.0?package-id=9eb39a3575f2974f",
       "type": "library",
       "name": "packet-reader",
       "version": "0.2.0",
@@ -2287,11 +2482,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -2319,12 +2518,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/parseurl@1.3.3?package-id=66a1406fd6f54d9f",
+      "bom-ref": "pkg:npm/parseurl@1.3.3?package-id=7837722feef427b0",
       "type": "library",
       "name": "parseurl",
       "version": "1.3.3",
@@ -2340,11 +2539,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -2352,12 +2555,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/path-to-regexp@0.1.7?package-id=2b575bd0f2101a95",
+      "bom-ref": "pkg:npm/path-to-regexp@0.1.7?package-id=8dfeddd2a3f05fd4",
       "type": "library",
       "name": "path-to-regexp",
       "version": "0.1.7",
@@ -2373,11 +2576,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -2421,12 +2628,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/pg@5.1.0?package-id=cf93d90689ba5181",
+      "bom-ref": "pkg:npm/pg@5.1.0?package-id=550716d5e3146dac",
       "type": "library",
       "name": "pg",
       "version": "5.1.0",
@@ -2442,11 +2649,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -2454,12 +2665,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/pg-connection-string@0.1.3?package-id=f63438f08a3a4a81",
+      "bom-ref": "pkg:npm/pg-connection-string@0.1.3?package-id=2682a6d2ff51c4a9",
       "type": "library",
       "name": "pg-connection-string",
       "version": "0.1.3",
@@ -2475,11 +2686,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -2523,12 +2738,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/pg-int8@1.0.1?package-id=7ca16b3692c2d26f",
+      "bom-ref": "pkg:npm/pg-int8@1.0.1?package-id=5a327a9285807839",
       "type": "library",
       "name": "pg-int8",
       "version": "1.0.1",
@@ -2544,11 +2759,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -2576,15 +2795,15 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/pg-minify@0.3.0?package-id=f8f42447a4127f38",
+      "bom-ref": "pkg:npm/pg-minify@0.3.5?package-id=365b16827f3e788f",
       "type": "library",
       "name": "pg-minify",
-      "version": "0.3.0",
+      "version": "0.3.5",
       "licenses": [
         {
           "license": {
@@ -2592,16 +2811,20 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:pg-minify:pg-minify:0.3.0:*:*:*:*:*:*:*",
-      "purl": "pkg:npm/pg-minify@0.3.0",
+      "cpe": "cpe:2.3:a:pg-minify:pg-minify:0.3.5:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/pg-minify@0.3.5",
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -2609,32 +2832,32 @@
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:pg-minify:pg_minify:0.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:pg-minify:pg_minify:0.3.5:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:pg_minify:pg-minify:0.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:pg_minify:pg-minify:0.3.5:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:pg_minify:pg_minify:0.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:pg_minify:pg_minify:0.3.5:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:pg:pg-minify:0.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:pg:pg-minify:0.3.5:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:cpe23",
-          "value": "cpe:2.3:a:pg:pg_minify:0.3.0:*:*:*:*:*:*:*"
+          "value": "cpe:2.3:a:pg:pg_minify:0.3.5:*:*:*:*:*:*:*"
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/pg-promise@4.8.1?package-id=5bc18e9668873814",
+      "bom-ref": "pkg:npm/pg-promise@4.8.1?package-id=4e6fe50c116fd844",
       "type": "library",
       "name": "pg-promise",
       "version": "4.8.1",
@@ -2650,11 +2873,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -2682,12 +2909,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/pg-types@1.13.0?package-id=8f12d6a9c2f0fc88",
+      "bom-ref": "pkg:npm/pg-types@1.13.0?package-id=97ab6a88b5c10345",
       "type": "library",
       "name": "pg-types",
       "version": "1.13.0",
@@ -2703,11 +2930,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -2735,12 +2966,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/pgpass@0.0.6?package-id=4c0956d5ff8f4eaf",
+      "bom-ref": "pkg:npm/pgpass@0.0.6?package-id=4baae41613e90215",
       "type": "library",
       "name": "pgpass",
       "version": "0.0.6",
@@ -2756,11 +2987,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -2768,12 +3003,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/postgres-array@1.0.3?package-id=8ee6aa9132ad3354",
+      "bom-ref": "pkg:npm/postgres-array@1.0.3?package-id=a21e2b2f518fbdca",
       "type": "library",
       "name": "postgres-array",
       "version": "1.0.3",
@@ -2789,11 +3024,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -2821,12 +3060,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/postgres-bytea@1.0.0?package-id=f8f2ca29c8c2d997",
+      "bom-ref": "pkg:npm/postgres-bytea@1.0.0?package-id=cd979817d491b54f",
       "type": "library",
       "name": "postgres-bytea",
       "version": "1.0.0",
@@ -2842,11 +3081,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -2874,12 +3117,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/postgres-date@1.0.7?package-id=3100d93a22ba6fb6",
+      "bom-ref": "pkg:npm/postgres-date@1.0.7?package-id=14947a9420346c64",
       "type": "library",
       "name": "postgres-date",
       "version": "1.0.7",
@@ -2895,11 +3138,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -2927,12 +3174,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/postgres-interval@1.2.0?package-id=1673228678cb66e7",
+      "bom-ref": "pkg:npm/postgres-interval@1.2.0?package-id=3427cc0fa2dbad52",
       "type": "library",
       "name": "postgres-interval",
       "version": "1.2.0",
@@ -2948,11 +3195,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -2980,12 +3231,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/proxy-addr@1.0.10?package-id=f86a94c0df967673",
+      "bom-ref": "pkg:npm/proxy-addr@1.0.10?package-id=7231112553b26cfa",
       "type": "library",
       "name": "proxy-addr",
       "version": "1.0.10",
@@ -3001,11 +3252,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -3033,12 +3288,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/qs@4.0.0?package-id=aa7eacea7aaf2fb6",
+      "bom-ref": "pkg:npm/qs@4.0.0?package-id=7a430b0edea2cc61",
       "type": "library",
       "name": "qs",
       "version": "4.0.0",
@@ -3054,11 +3309,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -3066,12 +3325,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/random-bytes@1.0.0?package-id=e4da94b9f45f8e0f",
+      "bom-ref": "pkg:npm/random-bytes@1.0.0?package-id=3197ce1600dabb38",
       "type": "library",
       "name": "random-bytes",
       "version": "1.0.0",
@@ -3087,11 +3346,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -3119,12 +3382,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/range-parser@1.0.3?package-id=228d77c180838601",
+      "bom-ref": "pkg:npm/range-parser@1.0.3?package-id=f567a18d3f13eb59",
       "type": "library",
       "name": "range-parser",
       "version": "1.0.3",
@@ -3140,11 +3403,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -3172,12 +3439,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/raw-body@2.1.7?package-id=e42f51258e8029fb",
+      "bom-ref": "pkg:npm/raw-body@2.1.7?package-id=f68e066093f0f2a8",
       "type": "library",
       "name": "raw-body",
       "version": "2.1.7",
@@ -3193,11 +3460,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -3225,12 +3496,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/readable-stream@1.0.34?package-id=7f2c2b3560183417",
+      "bom-ref": "pkg:npm/readable-stream@1.0.34?package-id=c8c60c68d392e1ed",
       "type": "library",
       "name": "readable-stream",
       "version": "1.0.34",
@@ -3246,11 +3517,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -3278,12 +3553,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/safe-buffer@5.2.1?package-id=829ccd8d5e41b8aa",
+      "bom-ref": "pkg:npm/safe-buffer@5.2.1?package-id=3939387e0ec1312a",
       "type": "library",
       "name": "safe-buffer",
       "version": "5.2.1",
@@ -3299,11 +3574,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -3331,19 +3610,19 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/semver@4.3.2?package-id=df61dfcb6f5e1fc1",
+      "bom-ref": "pkg:npm/semver@4.3.2?package-id=8d53401e3549dd29",
       "type": "library",
       "name": "semver",
       "version": "4.3.2",
       "licenses": [
         {
           "license": {
-            "id": "0BSD"
+            "id": "ISC"
           }
         }
       ],
@@ -3352,11 +3631,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -3364,12 +3647,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/semver@4.3.6?package-id=1f12edf19c00b80d",
+      "bom-ref": "pkg:npm/semver@4.3.6?package-id=7d609025d30b2a0e",
       "type": "library",
       "name": "semver",
       "version": "4.3.6",
@@ -3385,11 +3668,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -3397,12 +3684,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/send@0.13.1?package-id=e18f260464c7ebc1",
+      "bom-ref": "pkg:npm/send@0.13.1?package-id=3038743f2065cb32",
       "type": "library",
       "name": "send",
       "version": "0.13.1",
@@ -3418,11 +3705,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -3430,12 +3721,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/send@0.13.2?package-id=3e2a608e58edee49",
+      "bom-ref": "pkg:npm/send@0.13.2?package-id=7c2fd87127adea88",
       "type": "library",
       "name": "send",
       "version": "0.13.2",
@@ -3451,11 +3742,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -3463,12 +3758,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/serve-favicon@2.3.2?package-id=3b138385c4550779",
+      "bom-ref": "pkg:npm/serve-favicon@2.3.2?package-id=3559e1e55c936df6",
       "type": "library",
       "name": "serve-favicon",
       "version": "2.3.2",
@@ -3484,11 +3779,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -3516,12 +3815,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/serve-static@1.10.3?package-id=7ccae2e9bc4727dd",
+      "bom-ref": "pkg:npm/serve-static@1.10.3?package-id=25efcc3b62ed67d1",
       "type": "library",
       "name": "serve-static",
       "version": "1.10.3",
@@ -3537,11 +3836,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -3569,15 +3872,15 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/spex@0.4.0?package-id=f42f0c9dbdc17770",
+      "bom-ref": "pkg:npm/spex@0.4.6?package-id=171174e4858bc7b7",
       "type": "library",
       "name": "spex",
-      "version": "0.4.0",
+      "version": "0.4.6",
       "licenses": [
         {
           "license": {
@@ -3585,16 +3888,20 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:spex:spex:0.4.0:*:*:*:*:*:*:*",
-      "purl": "pkg:npm/spex@0.4.0",
+      "cpe": "cpe:2.3:a:spex:spex:0.4.6:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/spex@0.4.6",
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -3602,12 +3909,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/split@1.0.1?package-id=c6bbe2a72c99acc3",
+      "bom-ref": "pkg:npm/split@1.0.1?package-id=147b5cbebb8655b3",
       "type": "library",
       "name": "split",
       "version": "1.0.1",
@@ -3623,11 +3930,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -3635,12 +3946,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/statuses@1.2.1?package-id=a5fdcaaf7f80ba44",
+      "bom-ref": "pkg:npm/statuses@1.2.1?package-id=1a0c2fc1747953dd",
       "type": "library",
       "name": "statuses",
       "version": "1.2.1",
@@ -3656,11 +3967,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -3668,12 +3983,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/statuses@1.5.0?package-id=cae867f672394f4c",
+      "bom-ref": "pkg:npm/statuses@1.5.0?package-id=5e66be3853dbc8d9",
       "type": "library",
       "name": "statuses",
       "version": "1.5.0",
@@ -3689,11 +4004,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -3701,12 +4020,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/string_decoder@0.10.31?package-id=2f04e694a0a9ef14",
+      "bom-ref": "pkg:npm/string_decoder@0.10.31?package-id=ec5166deb2320fa8",
       "type": "library",
       "name": "string_decoder",
       "version": "0.10.31",
@@ -3722,11 +4041,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -3754,15 +4077,15 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/through@2.0.0?package-id=6e1265aebb6059d2",
+      "bom-ref": "pkg:npm/through@2.3.8?package-id=9fb5b0ac7a8f80d3",
       "type": "library",
       "name": "through",
-      "version": "2.0.0",
+      "version": "2.3.8",
       "licenses": [
         {
           "license": {
@@ -3770,16 +4093,20 @@
           }
         }
       ],
-      "cpe": "cpe:2.3:a:through:through:2.0.0:*:*:*:*:*:*:*",
-      "purl": "pkg:npm/through@2.0.0",
+      "cpe": "cpe:2.3:a:through:through:2.3.8:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/through@2.3.8",
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -3787,12 +4114,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/type-is@1.6.18?package-id=66b1bcc7903f9a84",
+      "bom-ref": "pkg:npm/type-is@1.6.18?package-id=abecd6ccd968e17a",
       "type": "library",
       "name": "type-is",
       "version": "1.6.18",
@@ -3808,11 +4135,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -3840,12 +4171,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/uid-safe@2.1.5?package-id=13a5593c4acf917b",
+      "bom-ref": "pkg:npm/uid-safe@2.1.5?package-id=fbb1ef8b8e190265",
       "type": "library",
       "name": "uid-safe",
       "version": "2.1.5",
@@ -3861,11 +4192,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -3893,12 +4228,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/unpipe@1.0.0?package-id=e06698ad03aad5e2",
+      "bom-ref": "pkg:npm/unpipe@1.0.0?package-id=69f2b5cf2ef09ea1",
       "type": "library",
       "name": "unpipe",
       "version": "1.0.0",
@@ -3914,11 +4249,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -3926,12 +4265,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/utils-merge@1.0.0?package-id=f51da7224785b3dd",
+      "bom-ref": "pkg:npm/utils-merge@1.0.0?package-id=2767999f44cb9eb7",
       "type": "library",
       "name": "utils-merge",
       "version": "1.0.0",
@@ -3947,11 +4286,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -3979,12 +4322,12 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/vary@1.0.1?package-id=93aeb2c0588722f8",
+      "bom-ref": "pkg:npm/vary@1.0.1?package-id=1db0feb241534e53",
       "type": "library",
       "name": "vary",
       "version": "1.0.1",
@@ -4000,11 +4343,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -4012,12 +4359,78 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     },
     {
-      "bom-ref": "pkg:npm/xtend@4.0.2?package-id=859880a84337247f",
+      "bom-ref": "pkg:npm/vulnerable-node-source@0.0.0?package-id=4ce53b7e087462e3",
+      "type": "library",
+      "name": "vulnerable-node-source",
+      "version": "0.0.0",
+      "cpe": "cpe:2.3:a:vulnerable-node-source:vulnerable-node-source:0.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:npm/vulnerable-node-source@0.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "javascript-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "npm"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:vulnerable-node-source:vulnerable_node_source:0.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:vulnerable_node_source:vulnerable-node-source:0.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:vulnerable_node_source:vulnerable_node_source:0.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:vulnerable-node:vulnerable-node-source:0.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:vulnerable-node:vulnerable_node_source:0.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:vulnerable_node:vulnerable-node-source:0.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:vulnerable_node:vulnerable_node_source:0.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:vulnerable:vulnerable-node-source:0.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:vulnerable:vulnerable_node_source:0.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "package-lock.json"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:npm/xtend@4.0.2?package-id=b451db5ef40dd530",
       "type": "library",
       "name": "xtend",
       "version": "4.0.2",
@@ -4033,11 +4446,15 @@
       "properties": [
         {
           "name": "syft:package:foundBy",
-          "value": "sbom-cataloger"
+          "value": "javascript-lock-cataloger"
         },
         {
           "name": "syft:package:language",
           "value": "javascript"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "NpmPackageLockJsonMetadata"
         },
         {
           "name": "syft:package:type",
@@ -4045,7 +4462,7 @@
         },
         {
           "name": "syft:location:0:path",
-          "value": "scanresults/SOOS/vulnerable-node_2023-03-27.soos_sca.cdx.json"
+          "value": "package-lock.json"
         }
       ]
     }
